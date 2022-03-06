@@ -1,0 +1,46 @@
+//variables
+$appBackground: #F1F1F1;
+$text-primary: #737C84;
+$text-secondary: #B4B4B4;
+
+//style global
+* {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+
+html {
+    background-color: $appBackground;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.nuxt {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    overflow-y: auto;
+}
+
+.text-primary {
+    color: $text-primary;
+    font-weight: 500;
+}
+
+.text-secondary {
+    color: $text-secondary;
+    font-weight: 100;
+}
