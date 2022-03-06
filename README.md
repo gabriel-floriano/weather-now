@@ -26,7 +26,9 @@ For detailed explanation on how things work, check out the [documentation](https
 $ npm run test
 ```
 
-## The Project is Running Live on [Surge](https://madebyfloriano-weather-now.surge.sh)
+## The Project has been Published and is Running Live on Surge
+ 
+You can access it by this [link](https://madebyfloriano-weather-now.surge.sh).
 
 ## Special Directories
 
