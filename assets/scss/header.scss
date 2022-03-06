@@ -1,0 +1,10 @@
+$navbarColor: #FFFFFF;
+
+.navbar {
+    background-color: $navbarColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+}
