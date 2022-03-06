@@ -26,6 +26,8 @@ For detailed explanation on how things work, check out the [documentation](https
 $ npm run test
 ```
 
+## The Project is Running Live on [Surge](https://madebyfloriano-weather-now.surge.sh)
+
 ## Special Directories
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
