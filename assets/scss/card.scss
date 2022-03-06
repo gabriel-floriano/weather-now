@@ -1,0 +1,96 @@
+$cardBackground: #FFFFFF;
+$footerBackground: rgb(241, 241, 241, 0.5);
+$headerBorder: #EBEBEB;
+$boxShadow: #333333;
+$error: #EF3058;
+$tryAgainButton: #7A838A;
+$cold: #69A3FF;
+$warm: #FF9632;
+$hot: #ED1946;
+
+.card {
+    min-width: 254.125px;
+    min-height: 209px;
+    background-color: $cardBackground;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0.8px 0.8px 10px 0.8px #33333350;
+    box-shadow: 0.8px 0.8px 10px 0.8px #33333350;
+    margin: 20px;
+}
+
+.header {
+    border-bottom: 1px solid $headerBorder;
+    padding: 7.5px;
+}
+
+.content {
+    padding: 22px 5px;
+    justify-content: center;
+}
+
+.temperature {
+    text-align: center;
+    font-size: 84px;
+}
+
+.footer {
+    padding: 7.5px;
+    background-color: $footerBackground;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer-item:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.footer-item:nth-child(2) {
+    display: block;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.error-text {
+    color: $error;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.try-again-button {
+    border: 2px solid $tryAgainButton;
+    border-radius: 50px;
+    padding: 10px;
+    background: none;
+    font-weight: bold;
+    color: $tryAgainButton;
+}
+
+small {
+    font-size: 12px;
+}
+
+.cold {
+    color: $cold;
+}
+
+.warm {
+    color: $warm;
+}
+
+.hot {
+    color: $hot;
+}
