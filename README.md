@@ -65,4 +65,11 @@ More information about the usage of this directory in [the documentation](https:
 
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
+## Running the tests
+
+```bash
+# running tests in jest
+$ npm run test
+```
+
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
